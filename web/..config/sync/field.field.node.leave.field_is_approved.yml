@@ -1,0 +1,21 @@
+uuid: 0905d917-0f83-46b0-80dc-9256e6ee54a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_approved
+    - node.type.leave
+id: node.leave.field_is_approved
+field_name: field_is_approved
+entity_type: node
+bundle: leave
+label: 'Is Approved'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

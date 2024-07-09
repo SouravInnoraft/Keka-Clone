@@ -1,0 +1,55 @@
+uuid: ed40cabc-18da-4d8c-bce3-fa46bb2b697d
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - node.type.leave
+  module:
+    - comment
+    - contact
+    - domain_registration
+    - field_permissions
+    - file
+    - filter
+    - node
+    - search
+    - shortcut
+    - system
+    - toolbar
+_core:
+  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+id: authenticated
+label: Employee
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer domain registration'
+  - 'create field_leave_date'
+  - 'create field_reason'
+  - 'create leave content'
+  - 'delete own files'
+  - 'edit any leave content'
+  - 'edit own field_leave_date'
+  - 'edit own field_reason'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view field_basic'
+  - 'view field_leave_date'
+  - 'view field_reason'
+  - 'view field_salary_date'
+  - 'view field_special_allowances'
+  - 'view own field_basic'
+  - 'view own field_leave_date'
+  - 'view own field_reason'
+  - 'view own field_salary_date'
+  - 'view own field_special_allowances'

@@ -1,0 +1,26 @@
+uuid: ea64fad2-df09-4018-87a9-0cbc8dbfb60e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.leave.field_is_approved
+    - field.field.node.leave.field_leave_date
+    - field.field.node.leave.field_reason
+    - node.type.leave
+  module:
+    - user
+id: node.leave.teaser
+targetEntityType: node
+bundle: leave
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_is_approved: true
+  field_leave_date: true
+  field_reason: true

@@ -1,0 +1,21 @@
+uuid: 1d73bd12-4bc7-43c0-8b3d-c24ea430c6bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_processed
+    - node.type.salary_processing
+id: node.salary_processing.field_is_processed
+field_name: field_is_processed
+entity_type: node
+bundle: salary_processing
+label: 'Is Processed'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

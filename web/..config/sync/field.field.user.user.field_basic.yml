@@ -1,0 +1,24 @@
+uuid: e8c0bf96-46d1-4adc-a102-73035feb2ea0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_basic
+  module:
+    - user
+id: user.user.field_basic
+field_name: field_basic
+entity_type: user
+bundle: user
+label: Basic
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: '₹ '
+  suffix: ''
+field_type: integer

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: e24625c8-ce8b-4c9a-ba1a-ba5baead4500
+name: Innoraft
+mail: sourav.chandra@innoraft.com
+slogan: 'The best place to understand Drupal concepts'
+page:
+  403: /node/2
+  404: /node/1
+  front: /node/3
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''
