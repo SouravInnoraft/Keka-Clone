@@ -1,0 +1,21 @@
+uuid: 50cb07a4-2686-465f-8d9d-7ad044dc77d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_leave_date
+    - node.type.leave
+  module:
+    - datetime_range
+id: node.leave.field_leave_date
+field_name: field_leave_date
+entity_type: node
+bundle: leave
+label: Leave-date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange
